@@ -1,14 +1,20 @@
 #include <iostream>
 using namespace std;
 int main() {
-int wiek ;
-cout<<"podaj wiek a powiem czy jesteś stary czy nie"<<endl;
-cin>>wiek;
-cout << "Twój wiek = " << wiek << endl;
-string znak;
-if (wiek >50) znak = "jesteś stary";
-else if(wiek<50) znak="jesteś młody";
-else znak="bedziesz stary";
-cout << znak << endl;
+int liczba ;
+cout<<"Podaj liczbe a ja powiem ci czy przy dzieleniu przez 5 daje resztę 2"<<endl;
+cin>>liczba;
+cout << "Liczba to = " << liczba<< endl;
+
+if (liczba) {
+    cout << "Podaj liczbę "<< endl;
+}
+else if(liczba%5==2)
+{
+    cout << "Tak liczba daje resztę 2 przy dzieleniu"<< endl;
+}
+else{
+    cout<<"Nie liczba nie daje reszty 2 przy dzieleniu"<< endl;
+}
 return 0;
 }
