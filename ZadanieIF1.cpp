@@ -2,11 +2,11 @@
 using namespace std;
 int main() {
 int liczba ;
-cout<<"Podaj liczbe a ja powiem czy przy dzieleniu przez 5 daje resztę 2"<<endl;
+cout<<"Podaj liczbe, a powiem czy przy dzieleniu przez 5 daje resztę 2"<<endl;
 cin>>liczba;
 cout << "Liczba to = " << liczba<< endl;
 
-if (liczba) {
+if (!liczba) {
     cout << "Podaj liczbę "<< endl;
 }
 else if(liczba%5==2)
