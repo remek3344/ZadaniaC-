@@ -2,7 +2,6 @@
 using namespace std;
 int main() {
 char literka;
-
 cout<<"Wypisz literki: "<<endl;
   if (cin >> literka) {
         
