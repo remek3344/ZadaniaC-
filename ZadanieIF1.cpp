@@ -5,7 +5,6 @@ int liczba ;
 cout<<"Podaj liczbe, a powiem czy przy dzieleniu przez 5 daje resztę 2"<<endl;
 cin>>liczba;
 cout << "Podaj liczbę "<< endl;
-cin>>liczba;
 if(liczba%5==2)
 {
     cout << "Tak liczba daje resztę 2"<< endl;
